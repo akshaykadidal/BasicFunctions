@@ -6,7 +6,6 @@ The skew function takes a numeric vector (a1).
 A point about which the distribution is skewed (skewcenter). skewcenter is defaulted to mode. you can chose "mean" or any other number about which the distribution will be skewed.
 And the amount by which the distibution mean changes because of the skew (meanshift). meanshift can be positive or negative number.
 
-The basic idea is to 
 
 ```example:
 a1 <- (rnorm(100000,50,20))
