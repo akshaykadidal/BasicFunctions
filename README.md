@@ -11,3 +11,6 @@ And the amount by which the distibution mean changes because of the skew (meansh
 a1 <- (rnorm(100000,50,20))
 x <- intorduce_Skew(a1, skewcenter ="mode", meanshift= 10) # the mean of distribution is approximately 10 units more than a1
 x1 <- intorduce_Skew(a1, skewcenter = 22, meanshift= 10) # the mean of distribution is approximately 10 units more than a1
+
+## Send mail.
+use sening mails.R script to send mails from your r-shiny application using a google email account.
