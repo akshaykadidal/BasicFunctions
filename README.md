@@ -22,4 +22,4 @@ use this snippet in the neo4j terminal
 ```example:
 bin\neo4j-admin import --mode=csv --nodes:User=import\id.csv --relationships:FOLLOWS=import\relations.csv --ignore-missing-nodes=true --multiline-fields=true
 ```
-For more detailed instructions you can follow along this vedio or this blog.
+For more detailed instructions you can follow along this [video](https://youtu.be/ZJAtZ5Lu4I8) or [this blog](https://akshayakadidal.blogspot.com/2019/06/bulk-upload-csv-to-neo4j-on-windows.html).
