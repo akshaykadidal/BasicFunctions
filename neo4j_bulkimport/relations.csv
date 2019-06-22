@@ -1,0 +1,17 @@
+:START_ID(Worker)	:END_ID(Worker)
+Rahul	Swami
+Rahul	Mamata
+Narendra	Amit
+Swami	Arvind
+Amit	Narendra
+Arvind	Rahul
+Rahul	Arvind
+Swami	Rahul
+Arvind	Swami
+Mamata	Amit
+Swami	Amit
+Arvind	Amit
+Rahul	Amit
+Narendra	Rahul
+Sonia	Shashi
+Sushma	Sonia
