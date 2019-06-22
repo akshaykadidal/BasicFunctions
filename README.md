@@ -14,3 +14,11 @@ x1 <- intorduce_Skew(a1, skewcenter = 22, meanshift= 10) # the mean of distribut
 ```
 ## Send mail.
 use sening mails.R script to send mails from your r-shiny application using a google email account.
+
+
+## Bulk import neo4j.
+use the sample files to bulk upload to neo4j. for more detailed instructions you can follow along this vedio or this blog.
+use this snippet in the neo4j terminal
+```example:
+bin\neo4j-admin import --mode=csv --nodes:User=import\id.csv --relationships:FOLLOWS=import\relations.csv --ignore-missing-nodes=true --multiline-fields=true
+```
