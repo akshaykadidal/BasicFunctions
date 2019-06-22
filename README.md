@@ -20,6 +20,6 @@ use sening mails.R script to send mails from your r-shiny application using a go
 use the sample files to bulk upload to neo4j. Download the files located [here](https://github.com/akshaykadidal/BasicFunctions/tree/master/neo4j_bulkimport)
 use this snippet in the neo4j terminal
 ```example:
-bin\neo4j-admin import --mode=csv --nodes:User=import\id.csv --relationships:FOLLOWS=import\relations.csv --ignore-missing-nodes=true --multiline-fields=true
+bin\neo4j-admin import --mode=csv --nodes:Worker=import\id.csv --relationships:FOLLOWS=import\relations.csv --ignore-missing-nodes=true --multiline-fields=true
 ```
 For more detailed instructions you can follow along this [video](https://youtu.be/ZJAtZ5Lu4I8) or [this blog](https://akshayakadidal.blogspot.com/2019/06/bulk-upload-csv-to-neo4j-on-windows.html).
